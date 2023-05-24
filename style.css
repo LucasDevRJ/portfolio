@@ -24,7 +24,7 @@ span {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,11 +32,15 @@ span {
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
+    line-height: 55px;
 }
 
 .apresentacao__conteudo__texto {
@@ -63,5 +67,6 @@ span {
 }
 
 .foto {
-    width: 30%;
+    width: 32%;
+    border-radius: 5px;
 }
