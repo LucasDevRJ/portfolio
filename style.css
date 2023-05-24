@@ -44,6 +44,11 @@ span {
     font-family: 'Montserrat', sans-serif;
 }
 
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
 .foto {
     width: 30%;
 }
