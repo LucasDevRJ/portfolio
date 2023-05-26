@@ -1,38 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    /* height: 100vh; */
-    box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
-}
-
-.cabecalho {
-    padding: 2% 0% 0% 15%;
-}
-
-.cabecalho__menu {
-    display: flex;
-    gap: 80px;
-}
-
-.cabecalho__menu__link {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    color: #22D4FD;
-    text-decoration: none;
-}
-
-.cabecalho__menu__link:hover {
-    color: #FFFF00;
-}
-
 span {
     color: #22D4FD;
     border: 1px solid #22D4FD;
@@ -119,14 +84,4 @@ span:hover {
 .foto {
     width: 32%;
     border-radius: 5px;
-}
-
-.rodape {
-    padding: 24px;
-    color: #000000;
-    background-color: #22D4FD;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
 }
