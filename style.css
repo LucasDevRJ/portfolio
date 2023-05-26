@@ -54,6 +54,10 @@ span:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+.apresentacao__conteudo__texto .destaque:hover {
+    color: #FFCC33;
+}
+
 .apresentacao__links {
     display: flex;
     justify-content: space-between;
@@ -88,6 +92,7 @@ span:hover {
 
 .apresentacao__links__link:hover {
     background-color: #272727;
+    border-color: #FFCC33;
 }
 
 .foto {
