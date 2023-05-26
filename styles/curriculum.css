@@ -18,3 +18,22 @@
 .curriculo_informacoes__contatos__contato {
     list-style-type: none;
 }
+
+.curriculo__experiencias__experiencia {
+    list-style-type: none;
+}
+
+.curriculo__experiencias__experiencia__titulo {
+    font-size: 32px;
+    margin-bottom: 3%;
+}
+
+.curriculo__experiencias__experiencia__subtitulo {
+    font-size: 28px;
+    margin-bottom: 2%;
+}
+
+.curriculo__experiencias__experiencia__projeto, .curriculo__experiencias__experiencia__projeto, .curriculo__experiencias__experiencia__descricao, .curriculo__experiencias__experiencia__data {
+    font-size: 25px;
+    margin-bottom: 1%;
+}
