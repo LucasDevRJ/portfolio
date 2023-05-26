@@ -11,6 +11,11 @@
     gap: 20px;
 }
 
+.curriculo_informacoes__nome {
+    font-size: 40px;
+    font-family: 'Krona One', sans-serif;
+}
+
 .curriculo_informacoes__contatos {
     display: flex;
 }
@@ -21,6 +26,8 @@
 
 .curriculo__experiencias__experiencia {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .curriculo__experiencias__experiencia__titulo {
@@ -31,9 +38,29 @@
 .curriculo__experiencias__experiencia__subtitulo {
     font-size: 28px;
     margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .curriculo__experiencias__experiencia__projeto, .curriculo__experiencias__experiencia__projeto, .curriculo__experiencias__experiencia__descricao, .curriculo__experiencias__experiencia__data {
     font-size: 25px;
     margin-bottom: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.curriculo__experiencias__experiencia__gif {
+    width: 40%;
+    border-radius: 5px;
+    border: 2px solid #22D4FD;
+}
+
+.curriculo__experiencias__experiencia__teste {
+    margin-top: 3%;
+    text-decoration: none;
+    border: 2px solid #22D4FD;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    color: #F6F6F6;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
 }
