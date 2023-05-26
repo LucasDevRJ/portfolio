@@ -23,6 +23,12 @@ span {
     padding: 10px;
 }
 
+span:hover {
+    color: #F6F6F6;
+    border-color: #FFFF00;
+    box-shadow: 2px 2px #FFFF00;
+}
+
 .apresentacao {
     margin: 10% 15%;
     display: flex;
