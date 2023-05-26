@@ -1,0 +1,14 @@
+.curriculo_informacoes {
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    gap: 20px;
+}
+
+.curriculo_informacoes__contatos {
+    display: flex;
+}
+
+.curriculo_informacoes__contatos__contato {
+    list-style-type: none;
+}
