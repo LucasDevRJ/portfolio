@@ -12,7 +12,19 @@ body {
     color: #F6F6F6;
 }
 
-.destaque {
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #22D4FD;
 }
 
@@ -30,7 +42,7 @@ span:hover {
 }
 
 .apresentacao {
-    padding: 8% 15%;
+    padding: 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,6 +59,10 @@ span:hover {
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
     line-height: 55px;
+}
+
+.destaque {
+    color: #22D4FD;
 }
 
 .apresentacao__conteudo__texto {
