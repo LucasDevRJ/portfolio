@@ -16,8 +16,20 @@
     font-family: 'Krona One', sans-serif;
 }
 
+.curriculo_informacoes__cargo {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.curriculo_informacoes__cidade {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .curriculo_informacoes__contatos {
     display: flex;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .curriculo_informacoes__contatos__contato {
