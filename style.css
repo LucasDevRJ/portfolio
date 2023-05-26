@@ -66,6 +66,7 @@ span {
     /* background-color: #22D4FD; */
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     gap: 16px;
     border: 2px solid #22D4FD;
     width: 378px;
@@ -77,6 +78,10 @@ span {
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
 }
 
 .foto {
