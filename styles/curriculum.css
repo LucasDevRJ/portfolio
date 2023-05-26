@@ -53,6 +53,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.destaque {
+    font-weight: bold;
+    color: #22D4FD;
+}
+
 .curriculo__experiencias__experiencia__projeto, .curriculo__experiencias__experiencia__projeto, .curriculo__experiencias__experiencia__descricao, .curriculo__experiencias__experiencia__data {
     font-size: 25px;
     margin-bottom: 1%;
