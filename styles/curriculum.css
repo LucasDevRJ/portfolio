@@ -62,7 +62,9 @@
 .curriculo__experiencias__experiencia__projeto, 
 .curriculo__experiencias__experiencia__descricao, 
 .curriculo__experiencias__experiencia__data, 
-.curriculo__formacao__subtitulo {
+.curriculo__formacao__subtitulo,
+.curriculo__formacao__projeto,
+.curriculo__formacao__descricao {
     font-size: 25px;
     margin-bottom: 1%;
     font-family: 'Montserrat', sans-serif;
