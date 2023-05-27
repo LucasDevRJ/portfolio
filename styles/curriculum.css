@@ -42,7 +42,7 @@
     flex-direction: column;
 }
 
-.curriculo__experiencias__experiencia__titulo {
+.curriculo__experiencias__experiencia__titulo, .curriculo__formacao__titulo {
     font-size: 32px;
     margin-bottom: 3%;
 }
