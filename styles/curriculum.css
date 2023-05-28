@@ -90,3 +90,8 @@
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
+
+.curriculo__tecnologias__lista {
+    display: flex;
+    gap: 0 8px;
+}
