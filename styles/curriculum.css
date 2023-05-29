@@ -12,44 +12,40 @@
     gap: 20px;
 }
 
-.curriculo__informacoes__pessoais {
-    flex-basis: 2;
-}
-
-.foto {
-    width: 10%;
+.curriculo__informacoes__foto {
+    width: 17%;
     position: absolute;
     left: 80%;
     border-radius: 5px;
 }
 
-.curriculo_informacoes__nome {
+.curriculo__informacoes__nome {
     font-size: 40px;
     font-family: 'Krona One', sans-serif;
 }
 
-.curriculo_informacoes__cargo {
+.curriculo__informacoes__cargo {
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.curriculo_informacoes__cidade {
+.curriculo__informacoes__cidade {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.curriculo_informacoes__contatos {
+.curriculo__informacoes__contatos {
     display: flex;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     gap: 0 10px;
 }
 
-.curriculo_informacoes__contatos__contato, .curriculo__tecnologias__lista__tecnologia {
+.curriculo__informacoes__contatos__contato, .curriculo__tecnologias__lista__tecnologia {
     list-style-type: none;
 }
 
-.curriculo_informacoes__contatos__contato:hover {
+.curriculo__informacoes__contatos__contato:hover {
     transform: scale(1.1);
 }
 
