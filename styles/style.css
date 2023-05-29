@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url(variables.css);
 
 span {
-    color: #22D4FD;
-    border: 1px solid #22D4FD;
+    color: var(--cor-terciaria);
+    border: 1px solid var(--cor-terciaria);
     border-radius: 5px;
     padding: 10px;
 }
 
 span:hover {
-    color: #F6F6F6;
-    border-color: #FFFF00;
-    box-shadow: 2px 2px #FFFF00;
+    color: var(--cor-secundaria);
+    border-color: var(--cor-quaternaria);
+    box-shadow: 2px 2px var(--cor-quaternaria);
 }
 
 .apresentacao {
@@ -29,21 +30,21 @@ span:hover {
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-titulo);
     line-height: 55px;
 }
 
 .destaque {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-texto);
 }
 
 .apresentacao__conteudo__texto .destaque:hover {
-    color: #FFCC33;
+    color: var(--cor-quaternaria);
 }
 
 .apresentacao__links {
@@ -55,18 +56,18 @@ span:hover {
 }
 
 .apresentacao__links__subtitulo {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-titulo);
     font-weight: 400;
     font-size: 24px;
 }
 
 .apresentacao__links__link {
-    /* background-color: #22D4FD; */
+    /* background-color: var(--cor-terciaria); */
     display: flex;
     justify-content: center;
     align-items: flex-end;
     gap: 16px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -74,13 +75,13 @@ span:hover {
     padding: 21.5px 0;
     text-decoration: none;
     color: #F6F6F6;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-texto);
     font-weight: 600;
 }
 
 .apresentacao__links__link:hover {
-    background-color: #272727;
-    border-color: #FFCC33;
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-quaternaria);
 }
 
 .foto {
