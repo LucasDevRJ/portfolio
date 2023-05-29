@@ -40,6 +40,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3%;
 }
 
 .curriculo__experiencias__experiencia__titulo, 
