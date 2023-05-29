@@ -1,3 +1,5 @@
+@import url(style.css);
+
 .curriculo {
     display: flex;
     flex-direction: column;
@@ -20,30 +22,30 @@
 }
 
 .curriculo__informacoes__contato {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-titulo);
     font-weight: 400;
     font-size: 24px;
 }
 
 .curriculo__informacoes__nome {
     font-size: 40px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-titulo);
 }
 
 .curriculo__informacoes__cargo {
     font-size: 35px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-texto);
 }
 
 .curriculo__informacoes__cidade {
     font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-texto);
 }
 
 .curriculo__informacoes__contatos {
     display: flex;
     font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-texto);
     gap: 0 10px;
 }
 
@@ -67,18 +69,18 @@
 .curriculo__tecnologias__titulo {
     font-size: 32px;
     margin: 4% 0%;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-titulo);
 }
 
 .curriculo__experiencias__experiencia__subtitulo {
     font-size: 28px;
     margin-bottom: 2%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-texto);
 }
 
 .destaque {
     font-weight: bold;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .curriculo__experiencias__experiencia__projeto, 
@@ -91,30 +93,30 @@
 .curriculo__formacao__data {
     font-size: 25px;
     margin-bottom: 1%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-texto);
 }
 
 .curriculo__experiencias__experiencia__gif {
     width: 40%;
     border-radius: 5px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
 }
 
 .curriculo__experiencias__experiencia__teste {
     margin-top: 3%;
     text-decoration: none;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     width: 200px;
     padding: 15px;
     text-align: center;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-texto);
 }
 
 .curriculo__experiencias__experiencia__teste:hover {
-    background-color: #272727;
-    border-color: #FFCC33;
+    background-color: var(--cor-quintanaria);
+    border-color: var(--cor-quaternaria);
 }
 
 .curriculo__tecnologias__lista {

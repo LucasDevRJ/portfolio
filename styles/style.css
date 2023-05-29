@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 @import url(variables.css);
 
-span {
+.span-destaque {
     color: var(--cor-terciaria);
     border: 1px solid var(--cor-terciaria);
     border-radius: 5px;
     padding: 10px;
 }
 
-span:hover {
+.span-destaque:hover {
     color: var(--cor-secundaria);
     border-color: var(--cor-quaternaria);
     box-shadow: 2px 2px var(--cor-quaternaria);
@@ -80,7 +80,7 @@ span:hover {
 }
 
 .apresentacao__links__link:hover {
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-quintanaria);
     border-color: var(--cor-quaternaria);
 }
 

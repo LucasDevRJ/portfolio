@@ -1,3 +1,5 @@
+@import url(style.css);
+
 .rodape {
     padding: 24px;
     color: var(--cor-primaria);
