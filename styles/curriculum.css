@@ -5,10 +5,22 @@
     padding: 8%;
 }
 
-.curriculo_informacoes {
+.curriculo__informacoes {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     gap: 20px;
+}
+
+.curriculo__informacoes__pessoais {
+    flex-basis: 2;
+}
+
+.foto {
+    width: 10%;
+    position: absolute;
+    left: 80%;
+    border-radius: 5px;
 }
 
 .curriculo_informacoes__nome {
@@ -35,6 +47,10 @@
 
 .curriculo_informacoes__contatos__contato, .curriculo__tecnologias__lista__tecnologia {
     list-style-type: none;
+}
+
+.curriculo_informacoes__contatos__contato:hover {
+    transform: scale(1.1);
 }
 
 .curriculo__experiencias__experiencia {
@@ -93,7 +109,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.curriculo__experiencias__experiencia__teste:hover {
+    background-color: #272727;
+    border-color: #FFCC33;
+}
+
 .curriculo__tecnologias__lista {
     display: flex;
     gap: 0 8px;
+}
+
+.curriculo__tecnologias__lista__tecnologia:hover {
+    transform: scale(1.1);
 }
