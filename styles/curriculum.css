@@ -30,6 +30,7 @@
     display: flex;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
+    gap: 0 10px;
 }
 
 .curriculo_informacoes__contatos__contato, .curriculo__tecnologias__lista__tecnologia {
