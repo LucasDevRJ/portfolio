@@ -1,0 +1,23 @@
+.sobre {
+    padding: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 80px;
+}
+
+.sobre__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.sobre__conteudo__texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2% 0%;
+}
+
+.sobre__foto {
+    width: 30%;
+    border-radius: 5px;
+}
