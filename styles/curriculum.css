@@ -19,6 +19,12 @@
     border-radius: 5px;
 }
 
+.curriculo__informacoes__contato {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .curriculo__informacoes__nome {
     font-size: 40px;
     font-family: 'Krona One', sans-serif;
@@ -60,7 +66,8 @@
 .curriculo__formacao__titulo, 
 .curriculo__tecnologias__titulo {
     font-size: 32px;
-    margin-bottom: 3%;
+    margin: 4% 0%;
+    font-family: 'Krona One', sans-serif;
 }
 
 .curriculo__experiencias__experiencia__subtitulo {
