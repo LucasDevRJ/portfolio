@@ -115,7 +115,7 @@
 }
 
 .curriculo__experiencias__experiencia__teste:hover {
-    background-color: var(--cor-quintanaria);
+    background-color: var(--cor-hover);
     border-color: var(--cor-quaternaria);
 }
 

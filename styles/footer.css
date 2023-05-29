@@ -5,7 +5,7 @@
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-texto);
     font-size: 24px;
     font-weight: 400;
 }

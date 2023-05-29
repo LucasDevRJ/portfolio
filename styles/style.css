@@ -62,7 +62,6 @@
 }
 
 .apresentacao__links__link {
-    /* background-color: var(--cor-terciaria); */
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -74,13 +73,13 @@
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-family: var(--fonte-texto);
     font-weight: 600;
 }
 
 .apresentacao__links__link:hover {
-    background-color: var(--cor-quintanaria);
+    background-color: var(--cor-hover);
     border-color: var(--cor-quaternaria);
 }
 

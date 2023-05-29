@@ -10,13 +10,13 @@
 }
 
 .cabecalho__menu__link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-texto);
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
     text-decoration: none;
 }
 
 .cabecalho__menu__link:hover {
-    color: #FFFF00;
+    color: var(--cor-quaternaria);
 }
