@@ -9,12 +9,12 @@
 }
 
 .sobre__conteudo__titulo {
-    font-size: 36px;
+    font-size: var(--fonte-tamanho-titulo);
     font-family: var(--fonte-titulo);
 }
 
 .sobre__conteudo__texto {
-    font-size: 24px;
+    font-size: var(--fonte-tamanho-texto);
     font-family: var(--fonte-texto);
     margin: 3% 0%;
 }
