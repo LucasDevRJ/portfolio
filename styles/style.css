@@ -88,9 +88,3 @@
     width: 32%;
     border-radius: 5px;
 }
-
-@media (max-width: 1200px) {
-    .apresentacao {
-        flex-direction: column-reverse;
-    }
-}
