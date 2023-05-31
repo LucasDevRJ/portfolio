@@ -8,6 +8,12 @@
     gap: 0 80px;
 }
 
+.sobre__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+
 .sobre__conteudo__titulo {
     font-size: var(--fonte-tamanho-titulo);
     font-family: var(--fonte-titulo);
@@ -16,10 +22,24 @@
 .sobre__conteudo__texto {
     font-size: var(--fonte-tamanho-texto);
     font-family: var(--fonte-texto);
-    margin: 3% 0%;
 }
 
 .sobre__foto {
     width: 30%;
     border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    .sobre {
+        flex-direction: column;
+        padding: 11% 5%;
+    }
+
+    .sobre__conteudo {
+        margin-bottom: 50px;
+    }
+
+    .sobre__foto {
+        width: 70%;
+    }
 }
