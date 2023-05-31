@@ -6,6 +6,6 @@
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-texto);
-    font-size: 24px;
+    font-size: var(--fonte-tamanho-texto);
     font-weight: 400;
 }
