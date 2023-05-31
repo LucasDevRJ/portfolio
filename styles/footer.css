@@ -9,3 +9,9 @@
     font-size: var(--fonte-tamanho-texto);
     font-weight: 400;
 }
+
+@media (max-width: 480px) {
+    .rodape {
+        font-size: 22px;
+    }
+}
