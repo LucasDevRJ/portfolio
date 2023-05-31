@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 40px 30px;
 }
 
 .apresentacao__conteudo {
@@ -67,7 +68,7 @@
     align-items: flex-end;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: var(--fonte-tamanho-texto);
@@ -86,4 +87,10 @@
 .apresentacao__foto {
     width: 32%;
     border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
