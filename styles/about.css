@@ -43,3 +43,26 @@
         width: 70%;
     }
 }
+
+@media (max-width: 800px) {
+    .sobre {
+        flex-direction: column;
+        padding: 7% 3%;        
+    }
+
+    .sobre__conteudo {
+        margin-bottom: 50px;
+    }
+
+    .sobre__conteudo__titulo {
+        font-size: 26px;
+    }
+
+    .sobre__conteudo__texto {
+        font-size: 20px;
+    }
+
+    .sobre__foto {
+        width: 50%;
+    }
+}
