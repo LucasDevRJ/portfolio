@@ -21,17 +21,17 @@
     gap: 30px 0;
 }
 
-.sobre__conteudo__titulo {
+.sobre__conteudo__historia__titulo {
     font-size: var(--fonte-tamanho-titulo);
     font-family: var(--fonte-titulo);
 }
 
-.sobre__conteudo__texto {
+.sobre__conteudo__historia__texto {
     font-size: var(--fonte-tamanho-texto);
     font-family: var(--fonte-texto);
 }
 
-.sobre__foto {
+.sobre__conteudo__foto {
     width: 30%;
     border-radius: 5px;
 }
@@ -66,21 +66,6 @@
     padding: 10px;
 }
 
-@media (max-width: 480px) {
-    .sobre {
-        flex-direction: column;
-        padding: 11% 5%;
-    }
-
-    .sobre__conteudo {
-        margin-bottom: 50px;
-    }
-
-    .sobre__foto {
-        width: 70%;
-    }
-}
-
 @media (max-width: 800px) {
     .sobre {
         flex-direction: column;
@@ -91,15 +76,40 @@
         margin-bottom: 50px;
     }
 
-    .sobre__conteudo__titulo {
+    .sobre__conteudo__historia__titulo {
         font-size: 26px;
     }
 
-    .sobre__conteudo__texto {
+    .sobre__conteudo__historia__texto {
         font-size: 20px;
     }
 
     .sobre__foto {
         width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .sobre {
+        flex-direction: column;
+        padding: 11% 5%;
+    }
+
+    .sobre__conteudo {
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .sobre__conteudo__historia__titulo {
+        font-size: 30px;
+    }
+
+    .sobre__conteudo__historia__texto {
+        font-size: 20px
+    }
+
+    .sobre__conteudo__foto {
+        width: 70%;
+        margin-top: 50px;
     }
 }
