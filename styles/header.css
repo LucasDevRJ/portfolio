@@ -32,3 +32,14 @@
         gap: 15px 0px;
     }
 }
+
+@media (max-width: 800px) {
+    .cabecalho {
+        padding: 30px 0;
+    }
+
+    .cabecalho__menu {
+        gap: 0 50px;
+        justify-content: center;
+    }
+}
