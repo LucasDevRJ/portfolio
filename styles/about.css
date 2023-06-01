@@ -21,6 +21,11 @@
     gap: 30px 0;
 }
 
+.sobre__conteudo__historia__citacao {
+    font-style: var(--fonte-citacao);
+    font-size: var(--fonte-citacao-tamanho);
+}
+
 .sobre__conteudo__historia__titulo {
     font-size: var(--fonte-tamanho-titulo);
     font-family: var(--fonte-titulo);
@@ -60,6 +65,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: var(--cor-quaternaria);
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -7,8 +7,10 @@
 
     --fonte-titulo: 'Krona One', sans-serif;
     --fonte-texto: 'Montserrat', sans-serif;
+    --fonte-citacao: 'Wix Madefor Display', sans-serif;
 
     --fonte-tamanho-titulo: 2.25rem;
     --fonte-tamanho-subtitulo: 2.18rem;
     --fonte-tamanho-texto: 1.5rem;
+    --fonte-citacao-tamanho: 1.4rem;
 }
