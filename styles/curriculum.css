@@ -177,3 +177,57 @@
         width: 100%;
     }
 }
+
+@media (max-width: 800px) {
+    .curriculo {
+        padding: 7% 3%;
+    }
+
+    .curriculo__informacoes__nome {
+        font-size: 30px;
+    }
+
+    .curriculo__informacoes__cargo,
+    .curriculo__informacoes__cidade,
+    .curriculo__informacoes__contato,
+    .curriculo__experiencias__experiencia__subtitulo {
+        font-size: 26px;
+    }
+
+    .curriculo__informacoes__foto {
+        display: none;
+    }
+
+    .curriculo__informacoes__contatos__contato img {
+        width: 80%;
+    }
+
+    .curriculo__experiencias__experiencia {
+        gap: 10px 0;   
+        padding-bottom: 20px;
+    }
+
+    .curriculo__experiencias__experiencia__titulo,
+    .curriculo__formacao__titulo,
+    .curriculo__tecnologias__titulo {
+        font-size: 24px;
+    }
+
+    .curriculo__experiencias__experiencia__gif {
+        width: 70%;
+    }
+
+    .curriculo__experiencias__experiencia__teste {
+        width: 35%;
+    }
+
+    .curriculo__experiencias__experiencia__projeto, 
+    .curriculo__experiencias__experiencia__projeto, 
+    .curriculo__experiencias__experiencia__descricao, 
+    .curriculo__experiencias__experiencia__data, 
+    .curriculo__formacao__projeto,
+    .curriculo__formacao__descricao,
+    .curriculo__formacao__data {
+        font-size: 20px;
+    }
+}
