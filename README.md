@@ -1,6 +1,6 @@
-# portfolio
-
 ![Capa LucasDevRJ](https://github.com/LucasDevRJ/portfolio/assets/95040236/bb7d6025-30b7-47bb-b9c0-a273bbd1b7a0)
+
+<h1 align="center">Portfólio</h1>
 
 ![Badge do Desenvolvedor](https://img.shields.io/badge/Desenvolvedor-LucasDevRJ-%23000000)
 ![Badge do nome do projeto](https://img.shields.io/badge/Projeto-Portfolio-%23000000)
