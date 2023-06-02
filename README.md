@@ -26,3 +26,24 @@ O projeto Portfólio se consiste em uma página web, desenvolvida com HTML e CSS
 - `Funcionalidade 4.2`: Analisar minhas experiências profissionais
 - `Funcionalidade 4.3`: Analisar minha formação acadêmica
 - `Funcionalidade 4.4`: Analisar as tecnologias que domino
+
+## :computer: Acesso ao projeto
+
+1. Tenha algum editor de código ou IDE instalado no seu computador
+2. Faça o download do meu projeto <a href="https://github.com/LucasDevRJ/portfolio/archive/refs/heads/main.zip">aqui</a>
+3. Coloque o projeto baixado na sua IDE ou editor de código
+4. Aprovei este lindo projeto
+
+## :computer: Abrir e rodar o projeto
+
+**Para testar o projeto de forma online mesmo basta acessa-lo <a href="https://portfolio-lucasdevrj.vercel.app/">aqui</a>**
+
+## Tecnologias utilizadas
+
+- HTML
+- CSS
+
+## Autores
+
+| [<img src="https://avatars.githubusercontent.com/u/95040236?v=4" width=115><br><sub>Lucas Pereira de Lima</sub>](https://github.com/LucasDevRJ)
+| :---: |
