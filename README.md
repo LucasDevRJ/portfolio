@@ -31,8 +31,9 @@ O projeto Portfólio se consiste em uma página web, desenvolvida com HTML e CSS
 
 1. Tenha algum editor de código ou IDE instalado no seu computador
 2. Faça o download do meu projeto <a href="https://github.com/LucasDevRJ/portfolio/archive/refs/heads/main.zip">aqui</a>
-3. Coloque o projeto baixado na sua IDE ou editor de código
-4. Aprovei este lindo projeto
+3. Descompacte o projeto
+4. Coloque o projeto descompactado na sua IDE ou editor de código
+5. Aprovei este lindo projeto
 
 ## :computer: Abrir e rodar o projeto
 
