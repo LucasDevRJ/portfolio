@@ -80,6 +80,7 @@
 
     .sobre__conteudo {
         margin-bottom: 50px;
+        flex-direction: column;
     }
 
     .sobre__conteudo__historia__titulo {
@@ -90,7 +91,8 @@
         font-size: 20px;
     }
 
-    .sobre__foto {
+    .sobre__conteudo__foto {
+        margin-top: 50px;
         width: 50%;
     }
 }
