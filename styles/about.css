@@ -72,6 +72,12 @@
     padding: 10px;
 }
 
+.sobre__galeria__lista {
+    display: flex;
+    list-style: none;
+    gap: 0 20px;
+}
+
 @media (max-width: 800px) {
     .sobre {
         flex-direction: column;
