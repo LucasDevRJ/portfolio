@@ -72,6 +72,11 @@
     padding: 10px;
 }
 
+.sobre__galeria__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: var(--fonte-tamanho-subtitulo);
+}
+
 .sobre__galeria__lista {
     display: flex;
     list-style: none;
@@ -81,6 +86,13 @@
 
 .sobre__galeria__lista__linha {
     margin: 30px 0;
+    filter: grayscale(100%);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.sobre__galeria__lista__linha:hover {
+    filter: initial;
 }
 
 .sobre__galeria__lista__linha__foto {
