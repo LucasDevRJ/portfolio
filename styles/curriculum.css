@@ -102,8 +102,14 @@
     border: 2px solid var(--cor-terciaria);
 }
 
-.curriculo__experiencias__experiencia__teste,
-.curriculo__experiencias__experiencia__repositorio {
+.curriculo__experiencias__experiencia__botoes {
+    display: flex;
+    margin-top: 2%;
+    gap: 0 30px;
+}
+
+.curriculo__experiencias__experiencia__botoes__teste,
+.curriculo__experiencias__experiencia__botoes__repositorio {
     margin-top: 3%;
     text-decoration: none;
     border: 2px solid var(--cor-terciaria);
@@ -115,8 +121,8 @@
     font-family: var(--fonte-texto);
 }
 
-.curriculo__experiencias__experiencia__teste:hover,
-.curriculo__experiencias__experiencia__repositorio:hover {
+.curriculo__experiencias__experiencia__botoes__teste:hover,
+.curriculo__experiencias__experiencia__botoes__repositorio:hover {
     background-color: var(--cor-hover);
     border-color: var(--cor-quaternaria);
 }
