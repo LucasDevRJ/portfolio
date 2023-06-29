@@ -102,6 +102,11 @@
     border: 2px solid var(--cor-terciaria);
 }
 
+.curriculo__experiencias__experiencia__video {
+    width: 50%;
+    height: 400px;
+}
+
 .curriculo__experiencias__experiencia__botoes {
     display: flex;
     margin-top: 2%;
@@ -198,6 +203,10 @@
     .curriculo__formacao__data {
         font-size: 20px;
     }
+
+    .curriculo__experiencias__experiencia__video {
+        width: 80%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -246,6 +255,10 @@
     }
 
     .curriculo__experiencias__experiencia__gif {
+        width: 100%;
+    }
+
+    .curriculo__experiencias__experiencia__video {
         width: 100%;
     }
 }
