@@ -132,8 +132,18 @@
     gap: 0 8px;
 }
 
+.curriculo__tecnologias__subtitulo {
+    font-family: var(--fonte-texto);
+    font-size: var(--fonte-tamanho-texto);
+    margin: 2% 0;
+}
+
 .curriculo__tecnologias__lista__tecnologia:hover {
     transform: scale(1.1);
+}
+
+.curriculo__tecnologias__lista__tecnologia__icone {
+    height: 64px;
 }
 
 @media (max-width: 800px) {
