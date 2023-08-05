@@ -72,18 +72,28 @@
     padding: 10px;
 }
 
-.sobre__curiosidades__divisao {
-    display: flex;
-    gap: 0 30px;
+.sobre__curiosidades__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: var(--fonte-tamanho-titulo);
+    margin-bottom: 30px;
 }
 
-.sobre__curiosidades__divisao__detalhe {
+.sobre__curiosidades__detalhe {
     font-family: var(--fonte-texto);
     font-size: var(--fonte-tamanho-texto);
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: #696969;
+    padding: 15px;
+    border-radius: 5px;
 }
 
-.sobre__curiosidades__divisao__detalhe__resposta {
-    padding-left: 35px;
+.sobre__curiosidades__detalhe__resposta {
+    padding-left: 30px;
+}
+
+.sobre__curiosidades__detalhe__resposta__destaque {
+    color: var(--cor-quaternaria);
 }
 
 .sobre__galeria__titulo {
