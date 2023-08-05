@@ -72,6 +72,11 @@
     padding: 10px;
 }
 
+.sobre__curiosidades__resposta {
+    font-family: var(--fonte-texto);
+    font-size: var(--fonte-tamanho-texto);
+}
+
 .sobre__galeria__titulo {
     font-family: var(--fonte-titulo);
     font-size: var(--fonte-tamanho-subtitulo);
