@@ -72,9 +72,18 @@
     padding: 10px;
 }
 
-.sobre__curiosidades__resposta {
+.sobre__curiosidades__divisao {
+    display: flex;
+    gap: 0 30px;
+}
+
+.sobre__curiosidades__divisao__detalhe {
     font-family: var(--fonte-texto);
     font-size: var(--fonte-tamanho-texto);
+}
+
+.sobre__curiosidades__divisao__detalhe__resposta {
+    padding-left: 35px;
 }
 
 .sobre__galeria__titulo {
