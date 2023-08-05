@@ -97,7 +97,7 @@
 
 .sobre__galeria__lista__linha__foto {
     height: 70vh;
-    width: 20vw;
+    width: 27vw;
 }
 
 @media (max-width: 800px) {

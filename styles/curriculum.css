@@ -64,6 +64,11 @@
     margin-bottom: 3%;
 }
 
+.curriculo__experiencias__experiencia__imagem {
+    width: 40%;
+    border-radius: 5px;
+}
+
 .curriculo__experiencias__experiencia__titulo, 
 .curriculo__formacao__titulo, 
 .curriculo__tecnologias__titulo {
@@ -186,7 +191,8 @@
         font-size: 24px;
     }
 
-    .curriculo__experiencias__experiencia__gif {
+    .curriculo__experiencias__experiencia__gif,
+    .curriculo__experiencias__experiencia__imagem {
         width: 70%;
     }
 
@@ -254,7 +260,8 @@
         padding-bottom: 20px;
     }
 
-    .curriculo__experiencias__experiencia__gif {
+    .curriculo__experiencias__experiencia__gif,
+    .curriculo__experiencias__experiencia__imagem {
         width: 100%;
     }
 
