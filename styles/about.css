@@ -90,6 +90,7 @@
 }
 
 .sobre__curiosidades__detalhe__resposta {
+    margin-top: 10px;
     padding-left: 30px;
 }
 
@@ -125,7 +126,7 @@
     width: 27vw;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 960px) {
     .sobre {
         flex-direction: column;
         padding: 7% 3%;        
@@ -148,6 +149,11 @@
         margin-top: 50px;
         width: 50%;
     }
+
+    .sobre__galeria__lista__linha__foto {
+        width: 40vw;
+        height: 40vh;
+    }
 }
 
 @media (max-width: 480px) {
@@ -167,6 +173,15 @@
 
     .sobre__conteudo__historia__texto {
         font-size: 20px
+    }
+
+    .sobre__galeria__lista {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre__galeria__lista__linha__foto {
+        width: 80vw;
     }
 
     .sobre__conteudo__foto {
